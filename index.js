@@ -8,12 +8,12 @@
 * ARIS187 ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = '👾AR15BOT👾'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/_sadboy.ig'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/+6285722553839'; // JANGAN UBAH-UBAH INFO!!!
-const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = '👾MRIDWANALB👾'; // JANGAN UBAH-UBAH INFO!!!
+const instagram = 'https://instagram.com/mridwanalb_'; // JANGAN UBAH-UBAH INFO!!!
+const nomer = 'Wa.me/+6285718038695'; // JANGAN UBAH-UBAH INFO!!!
+const aktif = 'Tergantung mood aing'; // JANGAN UBAH-UBAH INFO!!!
 const groupwhatsapp = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // JANGAN UBAH-UBAH INFO!!!
-const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
+const youtube = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // JANGAN UBAH-UBAH INFO!!!
 //A187ID
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -61,7 +61,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] Wannn-id ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -76,11 +76,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @mridwanalb_`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @mridwanalb_`)
 })
 
 conn.on('message-new', async(m) =>
@@ -148,7 +148,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, ' *Owner AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
+conn.sendMessage(id, ' *Owner Ridwan wa.me/+6285718038695* ' ,MessageType.text);
 }
 else if (text == '#help'){
 conn.sendMessage(id, ' *Menampilkan Pilihan Menu!!!* ' ,MessageType.text);
@@ -163,7 +163,7 @@ else if (text == '#donasi'){
 conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
+conn.sendMessage(id, ' *Creator Ridwan wa.me/+6285718038695* ' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
@@ -217,7 +217,7 @@ else if (text == 'Sayang'){
 conn.sendMessage(id, ' _Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
 }
 else if (text == 'I love u'){
-conn.sendMessage(id, ' _love you too😻_ ' ,MessageType.text);
+conn.sendMessage(id, ' _love you too_ ' ,MessageType.text);
 }
 else if (text == 'Mas'){
 conn.sendMessage(id, ' _Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
@@ -1162,10 +1162,10 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MRIDWANALB👾* , Follow Instagram Mimin Yaa : https://instagram.com/mridwanalb_' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾MRIDWANALB👾* , Follow Instagram Mimin Yaa : https://instagram.com/mridwanalb_' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
